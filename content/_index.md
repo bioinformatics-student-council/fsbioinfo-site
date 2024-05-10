@@ -1,6 +1,6 @@
 +++
 title = "Fachschaft Bioinformatik"
-description = "Hugo, the world's fastest framework for building websites"
+description = "Bioinformatics student council, Goethe University Frankfurt"
 date = "2019-02-28"
 author = "Hugo Authors"
 +++

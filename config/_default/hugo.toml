@@ -10,12 +10,15 @@ theme = "tailwind"
   # dir name of your blog content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
   contentTypeName = "posts"
+  subtitle = "Bioinformatics student council"
+  description = "Bioinformatics student council at Goethe University Frankfurt"
+  keywords = "bioinformatics, student council, Goethe University Frankfurt"
 
   [params.header]
     logo = "logo_simple.svg"
 
   [params.footer]
-    since = 2023
+    since = 2013
     poweredby = false
 
 [menu]
