@@ -1,0 +1,33 @@
+{{ define "main" }}
+  <main class="grid place-items-start w-full min-h-full max-w-4xl lg:max-w-5xl px-6 py-24">
+    <div class="text-center w-full">
+        <p class="text-base font-semibold text-indigo-600 dark:text-indigo-300">Welcome to the website of the</p>
+        <h1 class="mt-4 text-3xl font-bold tracking-tight text-slate-800 dark:text-slate-200 sm:text-5xl">Fachschaft Bioinformatik</h1>
+        <!-- <img src="logo_text.svg"/> -->
+        <p class="mt-6 text-base leading-7 text-slate-500 dark:text-slate-300">at the Goethe University FFM</p>
+        <div class="mt-10 flex items-center justify-center"><img src="logo_simple.svg" style="width: 15%;"/></div>
+        <div class="mt-10 flex items-center justify-center gap-x-6">
+            <a href="/new-students" style="width: 20%;" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+                New students
+            </a>
+            <a href="/tags/event" style="width: 20%;" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+                Events
+            </a>
+            <a href="/resources" style="width: 20%;" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+                Resources
+            </a>
+        </div>
+        <div class="mt-10 flex items-center justify-center gap-x-6">
+            <a href="https://www.instagram.com/fachschaftbioinformatik/" class="rounded-md transparent px-1 py-1 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+                <img src="brand-instagram.svg" class="text-white" style="min-height: 40px;"/>
+            </a>
+            <a href="https://dlist.server.uni-frankfurt.de/mailman/listinfo/bioinf" class="rounded-md transparent px-1 py-1 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+                <img src="brand-mail.svg" class="text-white" style="min-height: 40px;"/>
+            </a>
+            <a href="https://github.com/bioinformatics-student-council" class="rounded-md transparent px-1 py-1 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+                <img src="brand-github.svg" class="text-white" style="min-height: 40px;"/>
+            </a>
+        </div>
+    </div>
+  </main>
+{{ end }}

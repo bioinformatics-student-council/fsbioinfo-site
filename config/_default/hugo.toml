@@ -1,0 +1,44 @@
+baseURL = "https://example.com/"
+title = "Fachschaft Bioinformatik @GU"
+author = "Fachschaft Bioinformatik"
+copyright = "Fachschaft Bioinformatik"
+paginate = 10
+languageCode = "en"
+theme = "tailwind"
+
+[params]
+  # dir name of your blog content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "posts"
+
+  [params.header]
+    logo = "logo_simple.svg"
+
+  [params.footer]
+    since = 2023
+    poweredby = false
+
+[menu]
+
+  [[menu.main]]
+    identifier = "resources"
+    name = "Resources for students"
+    pageRef = "/resources"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "post"
+    name = "Updates"
+    pageRef = "/posts"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About us"
+    pageRef = "/about"
+    weight = 3
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
