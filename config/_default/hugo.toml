@@ -24,24 +24,33 @@ theme = "tailwind"
 [menu]
 
   [[menu.main]]
-    identifier = "resources"
-    name = "Resources for students"
-    pageRef = "/resources"
-    weight = 2
-
-  [[menu.main]]
     identifier = "post"
     name = "Updates"
     pageRef = "/posts"
     weight = 1
 
   [[menu.main]]
+    identifier = "calendar"
+    name = "Calendar"
+    pageRef = "/calendar"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "resources"
+    name = "Resources for students"
+    pageRef = "/resources"
+    weight = 3
+
+  [[menu.main]]
     identifier = "about"
     name = "About us"
     pageRef = "/about"
-    weight = 3
+    weight = 4
 
 [taxonomies]
 category = "categories"
 tag = "tags"
 series = "series"
+
+[markup.goldmark.renderer]
+      unsafe = true
