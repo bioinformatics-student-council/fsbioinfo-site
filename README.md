@@ -10,7 +10,7 @@ Website of the bioinformatics student council ("Fachschaft Bioinformatik") at Go
 
 ## How to contribute
 
-First of all, thank you so much for reading this! Since this website is run by students in their spare time, we very much appreciate any help we can get. If you see anything that you would like to improve or that needs to be update, feel free to create an issue or a pull request.
+First of all, thank you so much for reading this! Since this website is run by students in their spare time, we very much appreciate any help we can get. If you see anything that you would like to improve or that needs to be updated, feel free to create an issue or a pull request.
 
 ## Local setup
 
