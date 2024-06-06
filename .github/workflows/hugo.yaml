@@ -50,6 +50,13 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Build css with Tailwind
+        run: |
+          cd themes/tailwind
+          npm install
+          awk 'NR==6 {sub(/$/, ","); print; print "    \"../../layouts/**/*.html\""; next} 1' tailwind.config.js > tmp && mv tmp tailwind.config.js
+          npx tailwindcss -i assets/css/main.css -o assets/css/index.css
+          cd ../..
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
