@@ -3,7 +3,9 @@
 ![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/bioinformatics-student-council/fsbioinfo-site/.github/workflows/hugo.yaml)
 [![gohugo](https://img.shields.io/badge/Made_with-Hugo-blue)](https://gohugo.io/)
 [![tailwindcss](https://img.shields.io/badge/Made_with-Tailwind_CSS-blue)](https://tailwindcss.com/)
+[![volkswagen status](https://auchenberg.github.io/volkswagen/volkswargen_ci.svg?v=1)](https://github.com/auchenberg/volkswagen)
 ![GitHub Repo stars](https://img.shields.io/github/stars/bioinformatics-student-council/fsbioinfo-site)
+
 
 
 Website of the bioinformatics student council ("Fachschaft Bioinformatik") at Goethe University Frankfurt.
