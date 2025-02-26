@@ -5,7 +5,7 @@ author = "Adrian Romberg"
 date = "2025-02-26"
 +++
 
-![Bioinformatics Student Council](/about.jpg)
+![Bioinformatics Student Council](/images/about.jpg)
 
 The Bioinformatics Student Council is a group of volunteer bioinformatics students at Goethe University Frankfurt. Our goal is to make studying better for everyone (see [guiding principles](/principles)).
 
