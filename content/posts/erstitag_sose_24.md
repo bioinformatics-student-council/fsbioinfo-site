@@ -1,14 +1,13 @@
 ---
-title: "Erstitag 2024"
+title: "Welcome Day - Summer 2024"
 description: "The introductory event takes place on the 5th of April."
 excerpt: "The introductory event takes place on the 5th of April."
 date: 2024-03-04T09:19:42+01:00
 lastmod: 2024-03-04T09:19:42+01:00
 draft: false
-weight: 50
 images: ["fs_blog.png"]
 categories: ["Events"]
-tags: ["Erstitag"]
+tags: ["Erstitag", "Welcome Day"]
 contributors: ["Lucas Koch"]
 pinned: false
 homepage: false
