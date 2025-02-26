@@ -3,7 +3,8 @@ title = "Fachschaft Bioinformatik @GU"
 author = "Fachschaft Bioinformatik"
 copyright = "Fachschaft Bioinformatik"
 languageCode = "en"
-theme = "tailwind"
+theme = ["tailwind", "hugo-embed-pdf-shortcode"]
+enableInlineShortcodes = true
 
 [params]
   # dir name of your blog content (default is `content/posts`).
