@@ -2,7 +2,6 @@ baseURL = "https://fachschaftbioinformatik-ffm.de/"
 title = "Fachschaft Bioinformatik @GU"
 author = "Fachschaft Bioinformatik"
 copyright = "Fachschaft Bioinformatik"
-paginate = 10
 languageCode = "en"
 theme = "tailwind"
 
@@ -54,3 +53,6 @@ series = "series"
 
 [markup.goldmark.renderer]
       unsafe = true
+
+[pagination]
+  perPage = 10
