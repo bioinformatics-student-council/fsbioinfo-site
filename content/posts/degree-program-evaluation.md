@@ -19,4 +19,4 @@ By collecting feedback in advance and discussing it with involved professors, as
 
 The final report (in German) is available below.
 
-{{< embed-pdf url="/evaluation.pdf" hidePaginator="true" >}}
+{{< embed-pdf url="/degree-program-evaluation.pdf" hidePaginator="true" >}}
