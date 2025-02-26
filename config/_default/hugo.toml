@@ -12,6 +12,8 @@ theme = "tailwind"
   subtitle = "Bioinformatics student council"
   description = "Bioinformatics student council at Goethe University Frankfurt"
   keywords = "bioinformatics, student council, Goethe University Frankfurt"
+  showReadingTime = false
+  toc = false
 
   [params.header]
     logo = "logo_simple.svg"
