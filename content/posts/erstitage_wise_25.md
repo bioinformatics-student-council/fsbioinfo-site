@@ -1,9 +1,18 @@
-+++
-title = "Information for new students"
-description = "Updates on introductory events"
-aliases = ["new-students"]
-author = "Adrian Romberg, Lucas Koch"
-+++
+---
+title: "Welcome Days - Winter 2025"
+description: "The introductory event takes place on the 9th and 10th of October."
+excerpt: "The introductory event takes place on the 9th and 10th of October."
+date: 2025-09-18T00:00:00+01:00
+lastmod: 2025-09-18T00:00:00+01:00
+draft: false
+images: ["fs_blog.png"]
+categories: ["Events"]
+tags: ["Erstitag", "Welcome Day"]
+contributors: ["Adrian Romberg"]
+pinned: false
+homepage: false
+---
+
 Gude Bioinformatics Freshers!*
 
 The Bioinformatics Student Council warmly welcomes you to Goethe University Frankfurt. We are excited to greet you soon as new bioinformaticians!
